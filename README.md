@@ -16,7 +16,7 @@ A Visual Studio Code extension to automatically decode and display information a
 
 ### 📸 Example
 
-```text
+
 OID: .1.3.6.1.2.1.1.1.0
 
 SNMPv2-MIB::sysDescr.0 sysDescr OBJECT-TYPE
