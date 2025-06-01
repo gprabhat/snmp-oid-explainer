@@ -1,8 +1,8 @@
 # SNMP OID Explainer
 
-![Version](https://img.shields.io/badge/version-unpublished-lightgrey)
+![Version](https://img.shields.io/visual-studio-marketplace/v/gprabhat.snmp-oid-explainer)
 ![License](https://img.shields.io/github/license/gprabhat/snmp-oid-explainer)
-![Downloads](https://img.shields.io/badge/downloads-unpublished-lightgrey)
+![Downloads](https://img.shields.io/visual-studio-marketplace/d/gprabhat.snmp-oid-explainer)
 
 A Visual Studio Code extension to automatically decode and display information about SNMP OIDs (Object Identifiers) inline.
 
@@ -49,7 +49,7 @@ Ensure `snmptranslate` is available in your system PATH.
 
 ## 📦 Installation
 
-1. [Download the `.vsix` file](https://github.com/gprabhat/snmp-oid-explainer/releases) from the latest release.
+1. [Download the `.vsix` file](https://github.com/gprabhat/snmp-oid-explainer/releases) from the latest release. or Download directly from [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=gprabhat.snmp-oid-explainer)
 2. Open VS Code and run the command:  
    `Extensions: Install from VSIX...`  
    (You can find it in the Command Palette with `Ctrl+Shift+P`)
