@@ -1,0 +1,47 @@
+{
+    "name": "snmp-oid-explainer",
+    "displayName": "SNMP OID Explainer",
+    "description": "Explains SNMP OIDs inline, via hover and in a side panel. Uses local snmptranslate if available or falls back to OIDRef API.",
+    "version": "1.0.0",
+    "publisher": "gprabhat",
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onStartupFinished"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "snmpOidExplainer.explainAllOids",
+                "title": "Explain All SNMP OIDs in File"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "watch": "tsc -watch -p ./",
+        "package": "vsce package",
+        "compile": "tsc -p ./ && node build.js"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "@types/vscode": "^1.70.0",
+        "esbuild": "^0.25.5",
+        "typescript": "^5.0.0",
+        "vsce": "*"
+    },
+    "dependencies": {
+        "axios": "^1.6.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gprabhat/snmp-oid-explainer"
+    },
+    "license": "GPL-3.0",
+    "author": "gprabhat (https://github.com/gprabhat)"
+}

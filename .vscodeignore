@@ -1,0 +1,9 @@
+node_modules/**
+src/**
+tests/**
+.vscode/**
+*.md
+*.ts
+*.map
+.gitignore
+README.md
